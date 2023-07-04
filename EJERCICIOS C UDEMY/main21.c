@@ -28,7 +28,7 @@ scanf("%f",motor1.cilindro1.carrera);
 printf("Introduce el numero de cilindro\n");
 scanf("%d",&motor1.num_cilindros);
 
-motor1.cilindrada = (motor1.num_cilindros*(motor1.cilindro1.carrera/10)*M_PI*pow((motor1.cilindro1.diametro/10),2))/4;
+motor1.cilindrada = (motor1.num_cilindros*(motor1.cilindro1.carrera/10)*3.14*pow((motor1.cilindro1.diametro/10),2))/4;
 
 printf("Identificador: %d",motor1.identificador);
 printf("Diametro(mm): %.2f",motor1.cilindro1.diametro);
